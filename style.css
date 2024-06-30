@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    background: black;
+    position: relative;
+    height: 100vh;
+    position: absolute;
+    
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c1, .c2, .c3, .c4{
+    height: 150px;
+    width: 150px;
+   border-radius: 50% 50%;
+
+}
+.c1{
+    background: red;
+    position: absolute;
+    backdrop-filter: blur;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+
+}
+.c2{
+    background:green;
+    position: absolute;
+    backdrop-filter: blur;
+    right: calc(50% - 150px);
+    top: calc(50% - 150px);
+
+}
+.c3{
+    background:orange;
+    position: absolute;
+    backdrop-filter: blur;
+    right: calc(50% - 150px);
+    bottom: calc(50% - 150px);
+
+}
+.c4{
+    background:purple;
+     
+    position: absolute;
+    backdrop-filter: blur;
+    left: calc(50% - 150px);
+    bottom: calc(50% - 150px);
+}
+.stack{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}
+.cc{
+    height: 200px;
+    width: 300px;
+    color: white;
+    background: rgba(128, 128, 128, 0.596);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    
+}
+.ccl{
+    height: 200px;
+    width: 300px;
+    color: white;
+    background: rgba(0, 128, 0, 0.322);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    right: calc(60% - 5px);
+    bottom: calc(65% - 5px);
+}
+.ccr{
+    height: 200px;
+    width: 300px;
+    color:black;
+    background: rgba(255, 255, 255, 0.399);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    left: calc(60% - 5px);
+    bottom: calc(65% - 5px);
+}
+.cclb{
+    height: 200px;
+    width: 300px;
+    color: white;
+    background: rgba(0, 0, 255, 0.397);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    left: calc(60% - 5px);
+    top: calc(65% - 5px);
+}
+.ccrb{
+    height: 200px;
+    width: 300px;
+    color: white;
+    background: rgba(255, 0, 0, 0.267);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    right: calc(60% - 5px);
+    top: calc(65% - 5px);
+}
+.credit{
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.num{
+    font-size: 23px;
+    margin-top: 2.5rem;
+    font-weight: bolder;
+    font-family: "Roboto Mono", monospace;
+
+}
+.roboto-mono{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:700px;
+    font-style: normal;
+  }
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+}
+.top{
+    font-size:.6rem ;
+}
+.bottom{
+    font-size:1.1rem;
+}
+.details :last-child{
+    font-size:1rem ;
+    
+}
